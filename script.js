@@ -35,5 +35,5 @@ function decodeText() {
 function copyToClipboard() {
     let outputText = document.getElementById("outputText");
     outputText.select();
-    document.execCommand("copy");
+    navigator.clipboard.writeText(outputText.value);
 }
