@@ -61,5 +61,6 @@ function copyToClipboard() {
     // Select the text inside the textarea
     outputText.select();
     // Copy the selected text to the clipboard
-    document.execCommand("copy");
+    // document.execCommand("copy");
+    navigator.clipboard.writeText(copyText.value);
 }
