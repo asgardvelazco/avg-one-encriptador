@@ -62,5 +62,5 @@ function copyToClipboard() {
     outputText.select();
     // Copy the selected text to the clipboard
     // document.execCommand("copy");
-    navigator.clipboard.writeText(copyText.value);
+    navigator.clipboard.writeText(outputText.value);
 }
