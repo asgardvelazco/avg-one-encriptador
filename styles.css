@@ -15,8 +15,6 @@ body {
 }
 
 .logoheader { 
-  border: 2px solid #000000;
-  border-radius: 10px 40px 40px 40px;
   margin: 2em;
   width: 10%;
 }
